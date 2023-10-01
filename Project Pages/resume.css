@@ -1,0 +1,115 @@
+
+body, h1, ul {
+    margin: 10;
+    padding: 5;
+    font-family: Garamond;
+    align-content: center;
+}
+
+p{
+    margin: 2;
+    margin-left: 60px;
+    padding: 0;
+    font-family: Garamond;
+    font-size: large;
+}
+
+#top {
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 10;
+    padding: 5;
+    font-family: Cormorant Garamond;
+}
+
+h3 {
+    margin: 10;
+    padding: 5;
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+h4{
+    margin: 2;
+    margin-left: 30px;
+    padding: 0;
+    font-family: Garamond;
+    font-size: large;
+    font-style:italic
+}
+
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #d3cdd7;
+    font-family: Garamond;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-family: Garamond;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/* Sections styling */
+section {
+    background-color: #f4f4f4;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    .resume-nav ul li {
+        margin-right: 20px;
+    }
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #247ba0;
+    overflow: hidden;
+  }
+  
+  .navbar-brand {
+    max-width: 30%;
+    width: 200px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    color: #fff;
+  }
+  
+  .nav-link {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+  }
+  
